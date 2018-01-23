@@ -1,0 +1,4 @@
+#Sat Oct 07 19:32:14 CST 2017
+base.0=C\:\\Users\\Chris\\Desktop\\demandoo\\Demandoo\\Demandoo\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\Chris\\Desktop\\demandoo\\Demandoo\\Demandoo\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

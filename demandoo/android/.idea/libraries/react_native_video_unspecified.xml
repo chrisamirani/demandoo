@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="react-native-video-unspecified">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/Demandoo/react-native-video/unspecified/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/Demandoo/react-native-video/unspecified/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
