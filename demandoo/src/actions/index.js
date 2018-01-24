@@ -19,7 +19,7 @@ export const loginUser = ({email,password}) =>{
     return(dispatch) =>{
         dispatch({type: LOGIN_USER });
 
-    axios.post('https://demandoo.net/mobile-login',{email:email,password:password})
+    axios.post('https://your domain/mobile-login',{email:email,password:password})
     .then( user => {
         if(user.data.user){
         dispatch({type:LOGIN_USER_SUCCESS ,payload:user},Actions.tabBar({user:user.data.user}));

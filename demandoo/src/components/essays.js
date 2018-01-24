@@ -11,7 +11,7 @@ class Essays extends Component{
 
     return (
         <WebView
-          source={{uri: 'https://demandoo.net/app-get-essays'}}
+          source={{uri: 'Your Domain'}}
           scalesPageToFit={false}
           startInLoadingState={true}
         />

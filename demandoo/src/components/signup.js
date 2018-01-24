@@ -42,7 +42,7 @@ class Signup extends Component{
   }
   onButtonPress(){
     this.setState({loading:true})
-    axios.post('http://192.168.3.103:3000/mobile-signup',{email:this.state.email,password:this.state.password,name:this.state.userName})
+    axios.post('http://your domain/mobile-signup',{email:this.state.email,password:this.state.password,name:this.state.userName})
     .then( user => {
         if(user.data.user){
 

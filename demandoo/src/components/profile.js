@@ -39,7 +39,7 @@ class Profile extends Component{
                       userCredit : this.props.user.credit,
                       userEmail: this.props.user.email,
                       userId: this.props.user._id,
-                      subURL: 'https://demandoo.net/mobile-subscription/' + this.props.user.email + '/' + this.props.user._id,
+                      subURL: 'http://your domain/mobile-subscription/' + this.props.user.email + '/' + this.props.user._id,
                      })
         if(this.props.user.subscribed == 1){
             this.setState({subscribed:true})
@@ -74,7 +74,7 @@ class Profile extends Component{
         this.setState({newPassword:password})
     }
 changePassword(){
-    axios.post('https://demandoo.net/mobile-update-password',{userId:this.state.userId,oldPassword:this.state.oldPassword,newPassword:this.state.newPassword})
+    axios.post('https://your domain/mobile-update-password',{userId:this.state.userId,oldPassword:this.state.oldPassword,newPassword:this.state.newPassword})
     .then( message => {
         Alert.alert(message.data.msg);
         this.setState({oldPassword:'',newPassword:''})

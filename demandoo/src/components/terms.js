@@ -11,7 +11,7 @@ class Terms extends Component{
 
     return (
         <WebView
-          source={{uri: 'https://demandoo.net/app-get-tou'}}
+          source={{uri: 'https://your domain/app-get-tou'}}
           scalesPageToFit={false}
         />
 );

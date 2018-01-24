@@ -13,7 +13,7 @@ class Blog extends Component{
     return (
 
         <WebView
-          source={{uri: 'https://demandoo.net/app-get-blog'}}
+          source={{uri: 'Your Domain'}}
           scalesPageToFit={false}
           startInLoadingState={true}
         />

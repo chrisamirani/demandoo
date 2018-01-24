@@ -25,7 +25,7 @@ class Chat extends Component{
     this.onSend = this.onSend.bind(this);
     this._storeMessages = this._storeMessages.bind(this);
 
-    this.socket = SocketIOClient('https://demandoo.net');
+    this.socket = SocketIOClient('Your Socket Server Address');
     this.socket.on('chat', this.onReceivedMessage);
 
       }
